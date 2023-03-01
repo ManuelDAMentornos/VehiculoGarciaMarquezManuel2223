@@ -1,26 +1,15 @@
 package vehiculo;
 
 /**
- *
+ *Clase que instancia el tipo VehiculoGarciaMarquezManuel2223.
+ * 
  * @author IES Aguadulce
  */
 public class VehiculoGarciaMarquezManuel2223 {
-
-    /**
-     * Nombre del vehículo: {@value nombre}.
-     */
+    
     private String nombre;
-    /**
-     * Precio del vehículo: {@value precio}.
-     */
     private double precio;
-    /**
-     * Precio con IVA:{@value precioIVA}.
-     */
     private double precioIVA;
-    /**
-     * Cantidad de vehículos en stock: {@value stock}.
-     */
     private int stock;
 
     /**
@@ -34,14 +23,13 @@ public class VehiculoGarciaMarquezManuel2223 {
     /**
      * Constructor que recibe el nombre del vehículo, así como el precio y el
      * número que hay en stock. Crea un nuevo objeto
-     * <code>VehiculoGarciaMArquezManuel2223</code> con el nombre del vehículo,
-     * el precio de venta y la cantidad que hay en stock.
+     * <code>VehiculoGarciaMArquezManuel2223</code> inicializando todas las propiedades de la clase
      *
      * @param nom Nombre del vehículo
      * @param precio Precio del vehículo
      * @param stock Cantidad de vehículos en stock
      */
-// Constructor con parámetro para iniciar todas las propiedades de la clase
+// 
     public VehiculoGarciaMarquezManuel2223(String nom, double precio, int stock) {
         this.nombre = nom;
         this.precio = precio;
@@ -50,7 +38,7 @@ public class VehiculoGarciaMarquezManuel2223 {
 
     /**
      * Método para asignar el nombre del vehiculo. Asigna el nombre al vehículo.
-     * @param nom 
+     * @param nom Asigna un nombre al vehículo.
      */
     public void asignarNombre(String nom) {
         setNombre(nom);
@@ -103,6 +91,8 @@ public class VehiculoGarciaMarquezManuel2223 {
     }
 
     /**
+     * Obtener el nombre del vehículo.
+     * 
      * @return Obtener el nombre del vehículo
      */
     public String getNombre() {
@@ -110,6 +100,8 @@ public class VehiculoGarciaMarquezManuel2223 {
     }
 
     /**
+     * Modificar nombre del vehículo.
+     * 
      * @param nombre Modificar nombre del vehículo
      */
     public void setNombre(String nombre) {
@@ -117,6 +109,8 @@ public class VehiculoGarciaMarquezManuel2223 {
     }
 
     /**
+     * Obtener el precio del vehículo
+     * 
      * @return Obtener el precio del vehículo
      */
     public double getPrecio() {
@@ -124,6 +118,8 @@ public class VehiculoGarciaMarquezManuel2223 {
     }
 
     /**
+     * Modificar el precio del vehículo.
+     * 
      * @param precio Modificar el precio del vehículo
      */
     public void setPrecio(double precio) {
@@ -131,6 +127,7 @@ public class VehiculoGarciaMarquezManuel2223 {
     }
 
     /**
+     * Obtener el Precio Iva.
      * @return Obtener el Precio Iva
      */
     public double getPrecioIVA() {
@@ -138,6 +135,8 @@ public class VehiculoGarciaMarquezManuel2223 {
     }
 
     /**
+     * Modificar el precio IVA.
+     * 
      * @param precioIVA Modificar el precio IVA
      */
     public void setPrecioIVA(double precioIVA) {
@@ -145,6 +144,8 @@ public class VehiculoGarciaMarquezManuel2223 {
     }
 
     /**
+     * Obtener el stock.
+     * 
      * @return Obtener el stock.
      */
     public int getStock() {
@@ -152,6 +153,8 @@ public class VehiculoGarciaMarquezManuel2223 {
     }
 
     /**
+     * Modificar el stock.
+     * 
      * @param stock Modificar el stock.
      */
     public void setStock(int stock) {

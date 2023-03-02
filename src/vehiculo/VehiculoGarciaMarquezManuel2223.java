@@ -74,6 +74,7 @@ public class VehiculoGarciaMarquezManuel2223 {
         }
         setStock(getStock() + cantidad);
     }
+    
     /**
      * Método para vender vehículos. Modifica el stock.
      * @param cantidad Cantidad de vehículos a vender. No puede ser 0 o negativa.
